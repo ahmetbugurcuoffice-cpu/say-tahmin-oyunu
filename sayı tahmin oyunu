@@ -1,0 +1,9 @@
+sabit_sayi= 45
+
+tahmin=int(input("bir sayı tahmin edin(30 - 50 arası)"))
+if tahmin > sabit_sayi:
+    print("tahmininiz doğru sayıdan büyüktür")
+elif tahmin<sabit_sayi:
+    print("tahmininiz doğru sayıdan küçüktür")
+else:
+    print("doğru tahmin tebrikler!👏👏")
